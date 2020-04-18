@@ -1,0 +1,32 @@
+Steps 
+
+Install adminlte latest one 
+
+npm install -g @angular/cli
+
+
+Create new App
+ng new my-test-app
+
+
+Install admin lte 3
+npm install admin-lte@^3.0 --save
+
+Verify package.json
+
+Open adminlte
+https://adminlte.io/themes/dev/AdminLTE/index.html
+
+
+Choose dashboard 
+
+Update angular.json - Style and Script - don't add in test one
+
+
+Index.html - body add class
+
+App.component.html - update content
+
+Copy images to asset folder - E:\adminlte\test-app\dist\dream-app\assets
+
+Replace path with  src="assets/user1-128x128.jpg"
